@@ -1,5 +1,0 @@
-addons:
-  sonarcloud:
-    organisation: "serega00713"
-script:
- - sonar-scanner
