@@ -4,6 +4,6 @@ mono: none
 
 dotnet: 2.0.3
 
-script:
+script: "sbt clean coverage test"
 
-- dotnet restore Text_Tonality.csproj
+after_success: "sbt coveralls"
